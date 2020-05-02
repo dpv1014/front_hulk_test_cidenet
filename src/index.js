@@ -1,14 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
 import * as serviceWorker from './serviceWorker';
-
+import App from "./App";
+import { BrowserRouter as Router } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import './i18n';
+import Header from "./components/Header/Header";
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Router>
+            <Header/>
+            <Container className="main-container" fluid>
+                <App/>
+            </Container>
+        </Router>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

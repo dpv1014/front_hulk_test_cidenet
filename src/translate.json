@@ -1,0 +1,70 @@
+{
+  "es": {
+    "translation": {
+      "loading": "Cargando...",
+      "Header": {
+        "store": "Tienda",
+        "products": "Ver productos",
+        "new_products": "Nuevo producto",
+        "kardex": "Kardex"
+      },
+      "Errors": {
+        "required_field": "Campo requerido o el valor no es valido"
+      },
+      "Actions": {
+        "viewing": "Visualizando",
+        "view_kardex": "Ver kardex",
+        "enter_to_inventory": "Ingresar inventario",
+        "create": "Crear",
+        "edit": "Editar",
+        "close": "Cerrar",
+        "send": "Enviar",
+        "editing": "Editando",
+        "total": "Total",
+        "messages": {
+          "save_ok": "Operación exitosa",
+          "error": "Se ha presentado un error",
+          "yes": "Si",
+          "no": "No",
+          "no_registers": "No hay registros para mostrar..."
+        }
+      },
+      "Products": {
+        "title": "Productos",
+        "id": "ID",
+        "name": "Nombre",
+        "description": "Descripción",
+        "count": "Cantidad",
+        "price": "Precio Unitario",
+        "imageUrl": "URL de imagen",
+        "active": "Activo"
+      },
+      "Kardex": {
+        "title": "Kardex",
+        "date": "Fecha",
+        "detail": "Detalle",
+        "count": "Cantidad",
+        "count_total": "Cantidad total",
+        "price": "Precio Unitario",
+        "total": "V. Total",
+        "in": "Entradas",
+        "out": "Salidas",
+        "actual": "Saldos",
+        "inventory_release": "Venta",
+        "inventory_entry": "Compra",
+        "inventory_final_balance": "Saldo final"
+      },
+      "Store": {
+        "title": "Tienda"
+      },
+      "ProductCard": {
+        "count": "Cantidad",
+        "sell": "Vender",
+        "in_inventory": "En inventario",
+        "not_count_to_sent_selected": "No se ha seleccionado una cantidad a vender de este producto.",
+        "no_inventory": "Este producto no cuenta con inventario para realizar una venta en este momento.",
+        "no_active": "Este producto no se encuentra activo para realizar una venta en este momento."
+      }
+    }
+  }
+}
